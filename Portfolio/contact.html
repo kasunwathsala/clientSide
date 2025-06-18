@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">Kasun Nilaweera</a>
+        </div>
+
+        <div class="right">
+            <a href="/about.html">About</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/service.html">Services</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+            <div class="text">
+                We appreciate your desire to contact us! I'd love to hear from you whether you're looking to connect,
+                need help with an idea, or have a project in mind. Feel free to contact me using the form below, and I
+                will respond as soon as I can. As an alternative, you may reach me via email or on social media.
+            </div>
+
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Full Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email">
+
+                <label for="mobile-number">Mobile Number</label>
+                <input type="tel" id="mobile-number" placeholder="Mobile Number" maxlength="10" pattern="[0-9]{10}"
+                    title="Please enter a 10-digit mobile number">
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            All Right Reserved 2024 @KasunNilaweera
+        </p>
+    </footer>
+
+</body>
+
+</html>
